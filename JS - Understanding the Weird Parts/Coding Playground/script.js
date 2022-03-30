@@ -1,13 +1,19 @@
-process.stdin.resume();
-process.stdin.setEncoding('utf8');
-var util = require('util');
-var input = "";
+let person = {
+  firstname: 'Steph',
+  lastname: 'Clark',
+  getFullName: function() {
+      let fullname = this.firstname + ' ' + this.lastname;
+      return fullname;
+  }
+}
 
-process.stdin.on('data', function (text) {
-  input += text;
-});
+let logName = function(lang1, lang2) {
+  console.log('Logged: ' + this.getFullName());
+  console.log('Arguments: ' + lang1 + ' ' + lang2);
+  console.log('--------------');
+}
 
-process.stdin.on('end', function () {
-  //do your processing here.
-   console.log(input.split(' ').reverse().join(' '));
-});
+let logPersonName = logName.bind(person);
+
+logPersonName('en', 'es');
+
