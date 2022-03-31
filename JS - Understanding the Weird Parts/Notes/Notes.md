@@ -455,3 +455,43 @@ References to libraries for research:<br>
 ***
 
 **Polyfill**: code that adds a feature which the engine may lack
+
+## Section 4: Examining Famous Frameworks and Libraries
+***
+
+### learning from other's good code ~ an open source education
+***
+
+* learn from other famous frameworks
+
+* github.com 
+
+* download libraries, (uncompressed development)
+
+### Deep Dive into Source Code: jQuery
+***
+
+`init.prototype = jQuery.fn;`
+
+* `jQuery.fn` is the prototype
+
+Easier to understand source code, because we know the fundamentals 
+
+Can you ideas from source code, for your own projects
+
+**Method Chaining**: calling one method after another, and each method affects the parent object
+
+```javascript
+let q = $('ul.people').addClass('newClass').removeClass('people')
+```
+
+* the `.addClass()` function `returns` at the end and returns the 'this' variable which is pointing to the parent element, which is how we can chain methods and have them affect the parent each time
+
+* Giant library of methods
+
+* Don't be afraid of good code, it'll make you a better developer
+
+
+
+
+
