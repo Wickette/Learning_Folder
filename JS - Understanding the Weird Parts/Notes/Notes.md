@@ -492,6 +492,22 @@ let q = $('ul.people').addClass('newClass').removeClass('people')
 * Don't be afraid of good code, it'll make you a better developer
 
 
+## BONUS Content
+***
+
+### TypeScript, ES6, and Transpiled Languages
+***
+**Transpiled Languages**: convert the syntax of one programming langauge, to another
+
+* typescript, traceur
+
+* ES6 and features :  https://github.com/lukehoban/es6features
+
+### Promises, Async, Await
+***
+
+
+
 
 
 
