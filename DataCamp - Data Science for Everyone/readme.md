@@ -148,10 +148,105 @@ Data that uses a mix of quantitative and qualitative data
         - removing irrelevant data
     - Load into storage to be used for visualization and analysis
 
+# Data Preparation
+Why prepare data?
+- Real-life data is messy
+- preparation is done to prevent:
+    - errors
+    - incorrect results
+    - biasing algorithms
 
+# Exploratoy Data Analysis
+What is EDA?
+> promoted by John Tukey
 
+- exploring tha data
+- formulating hypotheses
+- assessing characteristics 
 
+# Interactive Dashboards
+- mindful of colors, fonts
+- keep in mind colorblindness
+- LABEL
 
-    
+BI tools
+- tableau, looker and power BI
+- python, R and Java
+- interactive
 
+# A/B testing
+**Champion/challenger testing**
+
+What are experiments in data science?
+
+_experiments help drive decisions and draw conclusions_
+1. form a question
+2. form a hypothesis
+3. collect data
+4. test the hypothesis with a statistical test
+5. interpret results
+
+**Terminology Review**
+- sample size: number of data points used
+- statistical significance: result is likely not due to chance
+    - given assumptions of statistical model
+    - use statistical tests to calc
+        - t-test, Z-test, ANOVA, Chi-square test
+
+Steps
+1. picking a metric to track
+2. calculate a sample size
+3. run the experiment
+4. checking for significance
+
+# Time Series Forecasting
+What is a statistical model?
+- represent a real-worl process with statistics
+- mathematical relationships between variables, including random variables
+- based on statistical assumptions and historical data
+
+Predictive Modeling
+
+Time Series data - a series of data points sequenced by time
+- stock prices
+- gas prices
+- unemployment rates
+- heart rate
+- CO2 levels
+- height of tides
+
+Seasonality
+
+Forecasting
+- derive a model from historical data to generate predictions
+- modeling methods use a combination of statistical and machine learning methods
+
+# Supervised Machine Learning
+subset of machine learning
+
+**Machine Learning:** predictions from data
+
+**Supervised Machine Learning:** predictions from data with _labels_ and _features_
+
+- labels: what we want to predict
+- features: data that might predict the label
+
+Model Evaluation
+
+# Clustering
+What is clustering?
+- divide data into categories
+- uses cases
+    - customer segmentation
+    - image segmentation
+    - anomaly detection
+
+Unsupervised machine learning
+
+**Clustering Review**
+- divide unlabeled dataset into different categories
+**Steps**
+1. select features
+2. select number of clusters
+3. use clusters to solve problems
 
