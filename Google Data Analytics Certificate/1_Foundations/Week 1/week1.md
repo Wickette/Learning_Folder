@@ -31,8 +31,6 @@ ACT
 > *Data Analysis - the collections, transformation, and organization of data in order to draw conclusions, make predictions, and drive informed decision-making*
 >
 > ---
->
->
 
 > *People analytics* is the practice of collecting and analyzing data on the people who make up a company's workforce in order to gain insights to improve how the company operates.
 
@@ -109,3 +107,9 @@ Data scientist vs Data analyst
 > Data Scientist - creating new ways of modeling and understanding the unknown by using raw data
 
 > Data Analytics - the science of data
+
+> Data-Driven Decision-Making - using facts to guide business strategy
+
+
+
+### Program Expectations and Proper use of the Discussion Forum
