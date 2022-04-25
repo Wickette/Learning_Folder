@@ -45,7 +45,6 @@ data life cycle vs data process
 - strong communication
 - 5 Why's
 
-
 ASK - 'you want to ask all of the right questions at the beginning of the engagement so that you better understand what your leaders and stakeholders need form this analysis'
 
 - what is the problem
@@ -56,3 +55,26 @@ PREPARE - 'we need to be thinking about the type of data we need in order to ans
 PROCESS - 'this is where you get a chance to understand its structure, its quirks, its nuances, and you really get a chance to understand deeply what type of data you're going to be working with and understanding what potential that data has to answer all of your questions'
 
 - cleaning
+
+ANALYZE - 'this is the point where we have to take a step back and let the data speak for itself'
+
+SHARE - 'all of this work from asking the right questions to collecting your data, to analyzing and sharing doesn't mean much of anything, if we aren't taking action on what we've just learned'
+
+ACT - 
+
+
+# The data analysis Toolbox
+
+Spreadsheets - Excel, Google Sheets
+
+- formulas
+- functions
+
+Query language - a computer programming language that allows you to retrieve and manipulate data from a database
+
+SQL - structured query language
+
+Data Visualization
+
+- graphs, maps, tables
+- tableau, looker, powerBI
